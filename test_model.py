@@ -71,6 +71,9 @@ def load_nafnet(lpath,model_yaml=-1):
     else:
         model_name = model_yaml
         
+    if model_name == "BL_AM_preload":
+        model_name = "BL_AM"
+        
     yaml=YAML()   
     path = pathlib.Path(config_path+"models/"+model_name+".yaml")
     model_yaml = yaml.load(path)
