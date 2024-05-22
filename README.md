@@ -16,7 +16,7 @@ This repo includes code for our 3 baseline models, a model can be trained by run
 python train_model.py -epochs 3000 -cpus 16 -batch 4 -model BL_RNN -input ol-2024-condor
 ```
 
-The model configuration included for trianing are in model_configs/models
+The model configuration included for training are in model_configs/models
 
 
 ## Testing
