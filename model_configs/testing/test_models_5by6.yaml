@@ -1,0 +1,22 @@
+Name: "test_models_5by6"
+Models:
+- "BL_RNN.pt"
+- "BL_SW.pt"
+- "BL_AM.pt"
+t_steps:
+- 100
+- 100
+- 100
+ss:
+- 10
+- 25
+- 100
+- 150
+- 200
+br:
+- 0
+- 0.25
+- 0.5
+- 0.75
+- 1.0
+cross_product: True

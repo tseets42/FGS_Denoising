@@ -1,0 +1,22 @@
+Name: "NAF_32_Standard_LL2"
+Model: "NAF_S"
+Channels: 3
+enc_dim: 32
+middle_blk_num: 8
+enc_blocks:
+- 2
+- 2
+- 4
+- 4
+dec_blocks:
+- 2
+- 2
+- 2
+- 2
+LearningRate: 0.0001
+pre-load32: False
+load_path:  ""
+resid: False
+drop_out_rate: 0.0
+chan_to_denoise: 
+- 0

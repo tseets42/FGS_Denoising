@@ -1,0 +1,16 @@
+Name: "laser_leak"
+h: 256
+w: 256
+test_h: 256
+test_w: 256
+Data_Aug: True
+InputPath: "data/no-icg/"
+dataset: "LaserLeak"
+Channels: 3
+Out_Channels: 1
+train_vids:
+- "OL-2023-09-28-120145-000001-record.mp4"
+- "OL-2023-09-28-120739-000002-record.mp4"
+- "OL-2023-09-28-121448-000003-record.mp4"
+test_vids:
+- "OL-2023-09-28-121959-000004-record.mp4"

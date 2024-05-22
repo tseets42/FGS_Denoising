@@ -1,0 +1,29 @@
+Name: "OL-2024 Full S_test = 100"
+ShortName: "OL24"
+InputPath: "data/train_test/"
+train_test_split: "train_test_split.pt"
+fps: 15.0
+B_min: 0
+B_network_path: "NAF_32_Standard_LLv2__h256_w256_laser_leak_ep100_L1_loss.pt"
+K_inv_min: 1200.0
+K_inv_max: 2400.0
+R_min: 4.0
+R_max: 8.0
+R_path_train: "dark_frames/train.mp4"
+R_path_test: "dark_frames/test.mp4"
+num_bits: 12
+S_min: 1
+s_test: 100
+b_test: 50
+r_test: 6.0
+k_inv_test: 1763.5
+h: 256
+w: 256
+t_step: 400
+wl_only: False
+fl_only: False
+data_aug: True
+Channels: 4
+data_aug_v: 0
+chan_to_denoise:
+- 3

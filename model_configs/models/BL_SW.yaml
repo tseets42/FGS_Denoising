@@ -1,0 +1,22 @@
+Name: "BL_SW"
+Model: "BL_SW"
+enc_dim: 24
+middle_blk_num: 12
+enc_blocks:
+- 2
+- 2
+- 4
+- 8
+dec_blocks:
+- 2
+- 2
+- 2
+- 2
+LearningRate: 0.0001
+max_T_train: 1
+input_shape: "t c h w"
+drop_out_rate: 0.0
+leadingT: 4
+num_frames_combined: 3
+lookback_window: 3
+middle_expansion: 2

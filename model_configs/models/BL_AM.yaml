@@ -1,0 +1,23 @@
+Name: "BL_AM"
+Model: "BL_AM"
+enc_dim: 32
+middle_blk_num: 12
+enc_blocks:
+- 2
+- 2
+- 4
+- 8
+dec_blocks:
+- 2
+- 2
+- 2
+- 2
+LearningRate: 0.0001
+resid: True
+max_T_train: 100
+input_shape: "t h w c"
+leadingT: 0
+num_frames: 1
+drop_out_rate: 0.0
+pre_train: False
+nafnet_pretrained: "models/NAF_32_Standard_h256_w256_OL24_ep3000_lowlr_1600.pt"
