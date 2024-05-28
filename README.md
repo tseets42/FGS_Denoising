@@ -34,7 +34,7 @@ To change the settings for testing a new file config file can be added to model_
 Metric results are calculated by removing the following indexes of videos. These videos contain no fluorescence so when simualting we add an extra layer of read noise and LLL that are unrealistic so should be taken out of the testing set. Remove indexes: ranges_to_remove = [[155,165],[293,302]]
 
 An example of reading the output of the metric result code is in view_metrics.ipynb
-Our metric results for our 3 baseline models, NafNet32, and modified BasicVSR++ are included in results/metric_results.pkl
+Our metric results for our 3 baseline models, NafNet32, and modified BasicVSR++ are included in results/metric_results.pkl (from the dataset link)
 
 
 ### Save Video Results
