@@ -12,5 +12,8 @@ train_vids:
 - "OL-2023-09-28-120145-000001-record.mp4"
 - "OL-2023-09-28-120739-000002-record.mp4"
 - "OL-2023-09-28-121448-000003-record.mp4"
+- "LLL_train1.mp4"
+- "LLL_train2.mp4"
+- "LLL_train3.mp4"
 test_vids:
-- "OL-2023-09-28-121959-000004-record.mp4"
+- "LLL_test1.mp4"
