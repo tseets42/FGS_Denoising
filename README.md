@@ -12,6 +12,8 @@ conda activate guided
 ## Get Dataset and Pretrained Models
 The dataset and pretrained models are available at: LINK
 
+Unzip the dataset and place the data and model folders at the lowest level of this repository.
+
 ## Training
 This repo includes code for our 3 baseline models, a model can be trained by running:
 
