@@ -66,5 +66,5 @@ python train_nafnet_laser_leakage.py -batch 4
 > ![lm_25_sm_25_results](./lm_25_sm_25_results.gif)
 
 > ### Real Data
-> <img src="./real_short.gif" width="1160" height="656"/>
+> <img src="./real_short.gif"/>
 
