@@ -21,7 +21,7 @@ This repo includes code for our 3 baseline models, a model can be trained by run
 python train_model.py -epochs 3000 -cpus 16 -batch 4 -model BL_RNN -input ol-2024-condor
 ```
 
-The model configuration included for training are in model_configs/models
+The model configuration included for training are in model_configs/models. Change the model by changing "BL_RNN" to the name of yaml file of the desired model config.
 
 
 ## Testing
@@ -29,7 +29,7 @@ The model configuration included for training are in model_configs/models
 Testing can be done using the following command:
 
 ```
-python test_model.py -cpus 6 -batch 1 -input ol-2024-condor-no_crop -test test_models_5by6
+python test_model.py -cpus 6 -batch 1 -input ol-2024-condor-no_crop -test test_models_5by6 
 ```
 
 To change the settings for testing a new file config file can be added to model_configs/testing.
@@ -41,9 +41,17 @@ Our metric results for our 3 baseline models, NafNet32, and modified BasicVSR++ 
 
 ### Save Video Results
 
+```
+python save_final_videos.py -s S -l L -device 0
+```
+where S and L are the number of signal and laser leakage light photons to simualte, respectively. 
+
 ### Save Real Videos
 To test the models on real video run:
 
+```
+python save_final_videos_real.py -device 0
+```
 
 
 ## Training LLL-PN
