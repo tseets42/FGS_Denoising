@@ -62,6 +62,7 @@ python train_nafnet_laser_leakage.py -batch 4
 
 
 # Results
-Here are some example result videos:
+> ### S_m=25, L_m=25
+> ![Short_sm25_lm_25](./video_examples/Short_sm25_lm_25.mp4)
 
 # Citation
