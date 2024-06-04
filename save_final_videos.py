@@ -99,7 +99,6 @@ def load_nafnet(lpath,model_yaml=-1):
 parser = argparse.ArgumentParser("parser")
 parser.add_argument('-s',  type=float, default=50)
 parser.add_argument('-l',  type=float, default=25)
-parser.add_argument('-switch',  type=int, default=0)
 parser.add_argument('-device',  type=int, default=1)
 
 args = parser.parse_args()
