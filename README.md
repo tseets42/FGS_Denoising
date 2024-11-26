@@ -1,5 +1,5 @@
 # FGS Denoising
-This repo is the code for "Video Denoising in Fluorescence Guided Surgery."
+This repo is the code for ["Video Denoising in Fluorescence Guided Surgery."](https://arxiv.org/abs/2411.09798)
 
 # Getting Started 
 ## Install
