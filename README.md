@@ -10,7 +10,7 @@ conda env create -f environment.yml
 conda activate guided
 ```
 ## Get Dataset and Pretrained Models
-The dataset and pretrained models are available at: LINK
+The dataset and pretrained models are available at: FORTHCOMING
 
 Unzip the dataset and place the data and model folders at the lowest level of this repository.
 
